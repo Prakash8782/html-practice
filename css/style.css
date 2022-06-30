@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: black;
+    opacity: 60%;
+
+}
+.container-1{
+    width: 1200px;
+    margin: auto;
+    padding: auto;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.header-logo{
+    font-size: 35px;
+
+}
+.header-menu{
+    padding: 20px;
+    margin: 30px;
+    color: white;
+    align-items: center;
+    word-spacing: 1cm;
+}
+.nav-items{
+    color: white;
+}
+.banner{
+    background-color: black;
+    opacity: 60%;
+}
+.container-2{
+    width: 1000px;
+    height: 450px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+.welcome{
+    font-size: 30px;
+    color: white;
+}
+.head-line{
+    font-size: 40px;
+    color: white;
+}
+.content{
+    font-size: 20px;
+    color: white;
+}
+.get-started{
+    font-size: 20px;
+    color: white;
+}
+.bg{
+  background-image: url(../images/hero-bg.jpg);
+  opacity: 150%;
+  background-color: black;
+}
+.about{
+
+}
+.container-3{
+    width: 1000px;
+    height: 450px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+.para1{
+    font-size: 22px;
+    padding: 1px;
+    margin: 1px;
+}
+.para2{
+    font-size: 35px;
+}
+.para3{
+
+}
+.container{
+    width: 900px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.para4{
+    width: 425px;
+    float: left;
+}
+.para5{
+    width: 425px;
+    text-align: justify;
+    float: right;
+}
+.services{
+
+}
+.container-4{
+    width: 1000px;
+    height: 850px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+.para6{
+    font-size: 22px;
+    padding: 0px;
+    margin: 0px;
+}
+.para7{
+    font-size: 35px;
+}
+.para8{
+
+}
+.container-{
+    
+}
+.ser-wrapper{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.para9{
+    border: 1px solid black;
+    background-color: grey;
+    margin: 0.5cm;
+    padding: 0.75cm 0.5cm;
+}
+.line1{
+    font-size: 22px;    
+    color: white;
+}
+.line2{
+    font-size: 15px;
+    color: white;
+    line-height: 0.75cm;
+}
+.para10{
+    border: 1px solid black;
+    background-color: grey;
+    margin: 0.5cm;
+    padding: 0.75cm 0.5cm;
+}
+.line3{
+    font-size: 22px;
+    color: white;
+}
+.line4{
+    font-size: 15px;
+    color: white;
+    line-height: 0.75cm;
+}
+.para11{
+    border: 1px solid black;
+    background-color: grey;
+    margin: 0.5cm;
+    padding: 0.75cm 0.5cm;
+}
+.line5{
+    font-size: 22px;
+    color: white;
+}
+.line6{
+    font-size: 15px;
+    color: white;
+    line-height: 0.75cm;
+}
+.para12{
+    border: 1px solid black;
+    background-color: grey;
+    margin: 0.5cm; 
+    padding: 0.75cm 0.5cm;
+}
+.line7{
+    font-size: 22px;  
+    color: white;
+}
+.line8{
+    font-size: 15px;
+    color: white;
+    line-height: 0.75cm;
+}
+.ct{
+    background-image: url(../images/cta-bg.jpg);
+    opacity: 150%;
+    background-color: black;
+}
+.call{
+    background-color: black;
+    opacity: 40%;
+}
+.container-5{
+    margin: 1000px;
+    height: 160px;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+.call-1{
+    font-size: 22px;
+    padding: 2px;
+    margin: 2px
+}
+.call-2{
+    font-size: 19px;
+}
+.call-3{
+    font-size: 20px;
+}
+.portfolio{
+
+}
+.container-6{
+    margin: 1000px;
+    height: 850px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+}
+.port-1{
+    font-size: 22px;
+    padding: 2px;
+    margin: 2px
+}
+.port-2{
+    font-size: 35px;
+}
+.port-3{
+    font-size: 19px;
+}
