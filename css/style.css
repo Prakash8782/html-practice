@@ -1,244 +1,641 @@
-body{
+html{
+    scroll-behavior: smooth;
+}
+
+body {
     margin: 0px;
     padding: 0px;
+    background-color: rgb(238, 236, 227);
 }
-a{
+
+a {
+    color: black;
     text-decoration: none;
 }
-.header{
-    background-color: black;
-    opacity: 60%;
-
+ 
+.header-menu a:hover {
+    overflow: hidden;
+    text-decoration-color: red;
+    border-bottom: 3px solid red;
 }
-.container-1{
-    width: 1200px;
+
+.header-menu a.home{
+    border-bottom: 3px solid red;
+    color: white;
+}
+
+#btn{
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+/* .header {
+    background-color:black;
+    color: white;
+    opacity: ;
+    position: fixed;
+    width: 1250px;
+} */
+
+.container-1 {
+    background-color: black;
+    width: 1250px;
+    height: 120px;
     margin: auto;
     padding: auto;
+    position: fixed;
+    opacity: 100%;
 }
-.header-wrapper{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-}
-.header-logo{
-    font-size: 35px;
 
-}
-.header-menu{
-    padding: 20px;
-    margin: 30px;
-    color: white;
-    align-items: center;
-    word-spacing: 1cm;
-}
-.nav-items{
-    color: white;
-}
-.banner{
-    background-color: black;
-    opacity: 60%;
-}
-.container-2{
-    width: 1000px;
-    height: 450px;
-    margin: auto;
-    padding: 50px;
-    text-align: center;
-}
-.welcome{
-    font-size: 30px;
-    color: white;
-}
-.head-line{
-    font-size: 40px;
-    color: white;
-}
-.content{
-    font-size: 20px;
-    color: white;
-}
-.get-started{
-    font-size: 20px;
-    color: white;
-}
-.bg{
-  background-image: url(../images/hero-bg.jpg);
-  opacity: 150%;
-  background-color: black;
-}
-.about{
-
-}
-.container-3{
-    width: 1000px;
-    height: 450px;
-    margin: auto;
-    padding: 50px;
-    text-align: center;
-}
-.para1{
-    font-size: 22px;
-    padding: 1px;
-    margin: 1px;
-}
-.para2{
-    font-size: 35px;
-}
-.para3{
-
-}
-.container{
-    width: 900px;
-    margin: auto;
-    padding: auto;
+.header-wrapper {
     display: flex;
     justify-content: space-around;
+    color: white;
 }
-.para4{
-    width: 425px;
-    float: left;
-}
-.para5{
-    width: 425px;
-    text-align: justify;
-    float: right;
-}
-.services{
 
+.header-logo {
+    font-size: 38px;
 }
-.container-4{
-    width: 1000px;
-    height: 850px;
+
+.header-menu {
+    padding: 20px;
+    margin: 30px;
+    align-items: center;
+    word-spacing: 0.75cm;
+}
+
+.nav-items {
+    color: white;
+    font: 24px;
+}
+
+.banner {
+    background-color: white;
+    opacity: 60%;
+}
+
+.container-2 {
+    width: auto;
+    height: 500px;
     margin: auto;
-    padding: 50px;
+    padding: 40px;
     text-align: center;
+    color: white;
+    background-color: black;
 }
-.para6{
-    font-size: 22px;
-    padding: 0px;
-    margin: 0px;
-}
-.para7{
+
+.welcome {
+    color: white;
+    /* border: 0.5px solid rgb(235, 223, 223);
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    /* padding-top: 0px; 
+    padding-bottom: 20px;
+    border-radius: 25px; */
+    margin-top: 150px;
+    font: caption;
     font-size: 35px;
+    background-color: black;
+    line-height: 1.5cm;
 }
-.para8{
 
-}
-.container-{
-    
-}
-.ser-wrapper{
-    display: flex;
-    justify-content: center;
+.head-line {
+    font-size: 25px;
     color: white;
+    line-height: 1cm;
 }
-.para9{
-    border: 1px solid black;
-    background-color: grey;
-    margin: 0.5cm;
-    padding: 0.75cm 0.5cm;
-}
-.line1{
-    font-size: 22px;    
-    color: white;
-}
-.line2{
-    font-size: 15px;
-    color: white;
-    line-height: 0.75cm;
-}
-.para10{
-    border: 1px solid black;
-    background-color: grey;
-    margin: 0.5cm;
-    padding: 0.75cm 0.5cm;
-}
-.line3{
-    font-size: 22px;
-    color: white;
-}
-.line4{
-    font-size: 15px;
-    color: white;
-    line-height: 0.75cm;
-}
-.para11{
-    border: 1px solid black;
-    background-color: grey;
-    margin: 0.5cm;
-    padding: 0.75cm 0.5cm;
-}
-.line5{
-    font-size: 22px;
-    color: white;
-}
-.line6{
-    font-size: 15px;
-    color: white;
-    line-height: 0.75cm;
-}
-.para12{
-    border: 1px solid black;
-    background-color: grey;
-    margin: 0.5cm; 
-    padding: 0.75cm 0.5cm;
-}
-.line7{
-    font-size: 22px;  
-    color: white;
-}
-.line8{
-    font-size: 15px;
-    color: white;
-    line-height: 0.75cm;
-}
-.ct{
-    background-image: url(../images/cta-bg.jpg);
-    opacity: 150%;
-    background-color: black;
-}
-.call{
-    background-color: black;
-    opacity: 40%;
-}
-.container-5{
-    margin: 1000px;
-    height: 160px;
-    margin: auto;
-    padding: 100px;
-    text-align: center;
-    color: white;
-}
-.call-1{
-    font-size: 22px;
-    padding: 2px;
-    margin: 2px
-}
-.call-2{
-    font-size: 19px;
-}
-.call-3{
+
+.content {
     font-size: 20px;
+    color: white;
+    line-height: 2cm;
 }
-.portfolio{
 
+.get-started {
+    color: red;
+    font-size: 14px;
+    margin: auto;
+    padding: 8px 20px;
+    width: 100px;
+    height: 16px;
+    border: 1px solid white;
+    border-radius: 18px;
 }
-.container-6{
-    margin: 1000px;
-    height: 850px;
+
+.get {
+    color: white;
+}
+
+.bg {
+    background-image: url(../images/hero-bg.jpg);
+}
+
+.container-3 {
+    width: auto;
     margin: auto;
     padding: 50px;
     text-align: center;
     background-color: white;
 }
-.port-1{
+
+.para1 {
+    font-size: 35px;
+    margin: auto;
+    width: 160px;
+    color: black;
+}
+
+.para2 {
+    font-size: 25px;
+    color: black;
+}
+
+.para3 {
+    font-size: 20px;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.para4 {
+    font-size: 18px;
+    width: 500px;
+    text-align: left;
+    float: left;
+    line-height: 0.5cm;
+}
+
+.para5 {
+    font-size: 18px;
+    width: 475px;
+    text-align: justify;
+    float: right;
+    line-height: 0.75cm;
+}
+
+.about1 {
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 2px 8px;
+}
+
+.container-4 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.para6 {
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.para7 {
+    font-size: 25px;
+}
+
+.para8 {
+    font-size: 20px;
+}
+
+.ser-wrapper {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.para9 {
+    border: 1px solid black;
+    background-color: white;
+    margin: 0.25cm;
+    padding: 1cm 0.75cm;
+}
+
+.line1 {
     font-size: 22px;
+    color: black;
+}
+
+.line2 {
+    font-size: 17px;
+    color: black;
+    line-height: 0.85cm;
+}
+
+.container-7 {
+    margin: auto;
+    padding: 50px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.clients-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0.75cm;
+}
+
+.clients-1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.ct {
+    background-image: url(../images/cta-bg.jpg);
+    opacity: 150%;
+}
+
+.call {
+    background-color: black;
+    opacity: 60%;
+}
+
+.container-5 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.call-1 {
+    font-size: 35px;
+    padding: 10px;
+    margin: 2px;
+    color: white;
+}
+
+.call-2 {
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+}
+
+.call-3 {
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.container-6 {
+    margin: auto;
+    height: 175px;
+    width: auto;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.port-1 {
+    font-size: 35px;
     padding: 2px;
     margin: 2px
 }
-.port-2{
+
+.port-2 {
+    font-size: 25px;
+}
+
+.port-3 {
+    font-size: 19px;
+}
+
+.container-8 {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: auto;
+    text-align: center;
+}
+
+.port-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    word-spacing: 0.5cm;
+}
+
+.apps {
+    font-size: 20px;
+    padding: 1px;
+    color: white;
+}
+
+.app1 {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2px 8px;
+}
+
+.container-9 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.img-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+}
+
+.img-wrapper .img img {
+    max-width: 90%;
+}
+
+.container-10 {
+    width: auto;
+    margin: auto;
+    height: auto;
+    /* padding: 50px; */
+    text-align: center;
+}
+
+.para13 {
     font-size: 35px;
 }
-.port-3{
-    font-size: 19px;
+
+.para14 {
+    font-size: 25px;
+}
+
+.para15 {
+    font-size: 20px;
+}
+
+.price-wrapper {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.para16 {
+    background-color: white;
+    margin: auto;
+    padding: 0.75cm 1cm;
+    /*transform: scale(1.05); */
+}
+
+.line9 {
+    font-size: 25px;
+    color: black;
+}
+
+.line10 {
+    font-size: 30px;
+    color: black;
+    line-height: 0.75cm;
+}
+
+.line11 {
+    font-size: 18px;
+    color: black;
+    line-height: 1cm;
+}
+
+.para17 {
+    border: 1px solid red;
+    background-color: white;
+    margin: auto;
+    padding: 0.12cm 2cm 1cm 2cm;
+}
+
+.line12 {
+    font-size: 25px;
+    color: black;
+}
+
+.line13 {
+    font-size: 30px;
+    color: black;
+    line-height: 0.75cm;
+}
+
+.line14 {
+    font-size: 18px;
+    color: black;
+    line-height: 1cm;
+}
+
+.para18 {
+    background-color: white;
+    margin: auto;
+    padding: 0.75cm 1cm;
+}
+
+.rec {
+    font-size: 20px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: rgb(241, 194, 194);
+    margin: 1px;
+    padding: 5px;
+}
+
+.line15 {
+    font-size: 25px;
+    color: black;
+}
+
+.line16 {
+    font-size: 30px;
+    color: black;
+    line-height: 0.75cm;
+}
+
+.line17 {
+    font-size: 18px;
+    color: black;
+    line-height: 1cm;
+}
+
+.buy {
+    font-size: 15px;
+    border: 1px solid red;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.container-12 {
+    margin: auto;
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.faq1 {
+    font-size: 35px;
+    padding-top: 40px;
+    margin: 2px
+}
+
+.faq2 {
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.container-14 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    /* padding: 50px;*/
+    text-align: center;
+}
+
+.team1 {
+    font-size: 35px;
+}
+
+.team2 {
+    font-size: 25px;
+}
+
+.team3 {
+    font-size: 20px;
+}
+
+.container-15 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.team-wrapper {
+    width: auto;
+    padding: auto;
+    display: flex;
+    text-align: center;
+    gap: 0.5cm;
+}
+
+.team-wrapper .img img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.team4 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-size: 18px;
+    color: black;
+}
+
+.team5 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-size: 18px;
+    color: black;
+}
+
+.team6 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-size: 18px;
+    color: black;
+}
+
+.team7 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-size: 18px;
+    color: black;
+}
+
+.container-16 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    /* padding: 50px; */
+    text-align: center;
+}
+
+.con1 {
+    font-size: 35px;
+}
+
+.con2 {
+    font-size: 25px;
+}
+
+.con3 {
+    font-size: 20px;
+}
+.container-17{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 50px;
+ }
+.cont-wrapper{
+    display: flex;
+    justify-content: space-evenly;   
+}
+.cont1{
+    text-align: start;
+}
+.map{
+    font-size: 25px;
+}
+.mess{
+    font-size: 25px;
+}
+.phone{
+    font-size: 25px;
+}
+.username{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.email{
+    width: 250px;
+    height: 30px;
+}
+.subject{
+    width: 510px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.message{
+    width: 510px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+.send{
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
